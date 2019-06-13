@@ -1,0 +1,61 @@
+h2 {
+	color: blue;	
+}
+
+table {
+	display: flex;
+	flex-direction: column;
+  	height: 75vh;
+}
+
+thead {
+	display: block;
+}
+
+tbody {
+	display: block;
+	overflow: scroll;
+}
+
+tr {
+	display: flex;
+	flex-direction: row;
+}
+
+
+thead > tr {
+	overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+th {
+	background-color: lightcoral;
+	border:solid 1px black;
+	flex:1;
+}
+
+th:nth-child(1) {
+	flex: 3.02;
+}
+
+td {
+	flex:1;
+	border:solid 1px black;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+td:nth-child(1) {
+	flex: 3;
+}
+
+td input {
+	color:black;
+	padding: 5px 8px 5px 8px;
+	margin: 0px 0px 0px 0px;
+	border-style: none;
+	background-color: lightblue;
+	box-sizing: border-box;
+	width: 100%;
+}

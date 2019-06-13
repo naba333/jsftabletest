@@ -1,0 +1,76 @@
+h2 {
+	color: blue;	
+}
+
+.tableHeader {
+	//display: block;
+	float: left;
+	width: 100px;
+	box-sizing: border-box;
+	border: 0px solid lightgray;
+	background-color: yellow;
+}
+
+.tableHeader:nth-last-child(1) {
+}
+
+.tableHeader:nth-child(1) {
+	width: 500px;
+}
+
+table {
+  //height: 75vh;
+	clear: both;
+	border-collapse: collapse;
+}
+
+thead {
+	display: none
+}
+
+tbody {
+	display: block;
+	max-height: 500px;
+	overflow: scroll;
+}
+
+tr {
+	background-color: #aaaaaa;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #cccccc;
+}
+
+
+
+
+th {
+	background-color: lightcoral;
+	border:solid 1px black;
+}
+
+td {
+	border:none;
+	margin: 0px;
+	padding: 0px;
+	width: 100px;
+	box-sizing: border-box;
+}
+
+td:nth-child(1) {
+	width: 500px;
+}
+
+
+td input {
+	color:black;
+	padding: 3px;
+	margin: 0px 0px 0px 0px;
+	border-style: none;
+	background-color: transparent;
+	
+	box-sizing: border-box;
+	width: 100%;
+	
+}

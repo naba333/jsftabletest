@@ -1,0 +1,45 @@
+body {
+	height: 100vh;
+	margin: 0px;
+}
+
+.logo {
+	height: 70px;
+	background-color: lightblue;
+	width: 100%;
+}
+
+.menubar {
+	height: 50px;
+	background-color: pink;
+	width: 100%;
+}
+
+.mainpanel {
+	height: calc(100% - 150px);
+}
+
+.navpanel {
+	background-color: lightgrey;
+	height: 100%;
+	width: 15%;
+	float: left;
+}
+
+.contentpanel {
+	background-color: orange;
+	height: 100%;
+	width: 85%;
+	float: left;
+}
+
+.contentwrapper {
+	margin: 10px;
+}
+
+.footer {
+	background-color: blue;
+	height: 30px;
+	width: 100%;
+}
+
