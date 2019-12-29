@@ -1,0 +1,8 @@
+# Ignored folders
+.gradle/
+build/
+gradle/
+
+# Ignored files
+gradlew
+gradlew.bat

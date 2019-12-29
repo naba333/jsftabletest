@@ -45,4 +45,10 @@ public class StoreBean
 		return this.glassStock;
 	}
 
+	@Lock(LockType.WRITE)
+	public void createGlass(Glass newGlass)
+	{
+		this.glassStock.add(newGlass);
+	}
+
 }
